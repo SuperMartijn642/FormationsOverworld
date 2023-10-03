@@ -26,8 +26,8 @@
   "depends": {
     "fabricloader": "${fabric_loader_dependency}",
     "fabric": "${fabric_api_dependency}",
-    "minecraft": "${minecraft_dependency}",
+    "minecraft": "${minecraft_fabric_dependency}",
     "java": "${java_dependency}",
-    "formations": "${formations_core_dependency}"
+    "formations": ">=${formations_min_version}"
   }
 }

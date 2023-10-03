@@ -6,7 +6,7 @@ plugins {
     id "com.modrinth.minotaur" version "2.+"
 }
 
-version = project.mod_version + "-fabric-" + project.minecraft_suffix
+version = project.mod_version
 group = project.maven_group
 archivesBaseName = project.mod_id
 
@@ -58,7 +58,7 @@ processResources {
     if (matcher.find())
         copyProperties.mod_version = copyProperties.mod_version.substring(0, matcher.start()) + "+" + copyProperties.mod_version.substring(matcher.start())
 
-    filesMatching(["fabric.mod.json", "modid.mixins.json", "pack.mcmeta"]) {
+    filesMatching(["fabric.mod.json", "META-INF/mods.toml", "modid.mixins.json", "pack.mcmeta"]) {
         expand copyProperties
     }
 
@@ -122,6 +122,8 @@ curseforge {
         releaseType = project.curseforge_release_type
         project.curseforge_game_versions.split(" ").each it::addGameVersion
         addGameVersion("Fabric")
+        addGameVersion("Forge")
+        addGameVersion("NeoForge")
         addGameVersion("Quilt")
         // Point to 'changelog' setting to a the changelog file
         changelog = file("changelog.md")
@@ -138,7 +140,7 @@ curseforge {
         }
 
         mainArtifact(remapJar) {
-            displayName = "${project.mod_name} ${project.mod_version} for Fabric ${project.minecraft_suffix.substring(2)}"
+            displayName = "${project.mod_name} ${project.mod_version}"
         }
     }
     options {
