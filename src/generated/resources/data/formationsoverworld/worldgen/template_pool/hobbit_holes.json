@@ -1,0 +1,61 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:hobbit_hole1",
+        "projection": "rigid",
+        "ground_level": 6,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:random_bed_color"
+          },
+          {
+            "processor_type": "formations:random_plant_growth"
+          },
+          {
+            "processor_type": "formations:fill_chiseled_bookshelves"
+          },
+          {
+            "slotFillChance": 0.2,
+            "maxBlazePowder": 3,
+            "processor_type": "formations:fill_brewing_stands"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:hobbit_hole2",
+        "projection": "rigid",
+        "ground_level": 6,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:random_bed_color"
+          },
+          {
+            "processor_type": "formations:random_plant_growth"
+          },
+          {
+            "processor_type": "formations:fill_chiseled_bookshelves"
+          },
+          {
+            "slotFillChance": 0.2,
+            "maxBlazePowder": 3,
+            "processor_type": "formations:fill_brewing_stands"
+          }
+        ]
+      }
+    }
+  ]
+}

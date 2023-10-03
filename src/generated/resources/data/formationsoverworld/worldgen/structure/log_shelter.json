@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:log_shelters",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/log_shelter",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

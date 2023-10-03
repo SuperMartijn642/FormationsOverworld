@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:tower_remnants",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/tower_remnant",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

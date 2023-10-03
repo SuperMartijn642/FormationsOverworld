@@ -1,0 +1,139 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:witch_tower1",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "mossy_chance": 0.1,
+            "degradation_chance": 0.0,
+            "disintegration_chance": 0.0,
+            "processor_type": "formations:block_age"
+          },
+          {
+            "minGrowth": 0.1,
+            "processor_type": "formations:random_plant_growth"
+          },
+          {
+            "processor_type": "formations:random_bed_color"
+          },
+          {
+            "maxBlazePowder": 5,
+            "processor_type": "formations:fill_brewing_stands"
+          },
+          {
+            "slotFillChance": 0.35,
+            "processor_type": "formations:fill_chiseled_bookshelves"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:witch_tower2",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "mossy_chance": 0.1,
+            "degradation_chance": 0.0,
+            "disintegration_chance": 0.0,
+            "processor_type": "formations:block_age"
+          },
+          {
+            "minGrowth": 0.1,
+            "processor_type": "formations:random_plant_growth"
+          },
+          {
+            "processor_type": "formations:random_bed_color"
+          },
+          {
+            "maxBlazePowder": 5,
+            "processor_type": "formations:fill_brewing_stands"
+          },
+          {
+            "slotFillChance": 0.35,
+            "processor_type": "formations:fill_chiseled_bookshelves"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:witch_tower1",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:block_age"
+          },
+          {
+            "minGrowth": 0.5,
+            "processor_type": "formations:random_plant_growth"
+          },
+          {
+            "processor_type": "formations:random_bed_color"
+          },
+          {
+            "maxBlazePowder": 5,
+            "processor_type": "formations:fill_brewing_stands"
+          },
+          {
+            "slotFillChance": 0.35,
+            "processor_type": "formations:fill_chiseled_bookshelves"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:witch_tower2",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:block_age"
+          },
+          {
+            "minGrowth": 0.5,
+            "processor_type": "formations:random_plant_growth"
+          },
+          {
+            "processor_type": "formations:random_bed_color"
+          },
+          {
+            "maxBlazePowder": 5,
+            "processor_type": "formations:fill_brewing_stands"
+          },
+          {
+            "slotFillChance": 0.35,
+            "processor_type": "formations:fill_chiseled_bookshelves"
+          }
+        ]
+      }
+    }
+  ]
+}

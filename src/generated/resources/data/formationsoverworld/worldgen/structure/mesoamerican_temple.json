@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:mesoamerican_temples",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/mesoamerican_temple",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

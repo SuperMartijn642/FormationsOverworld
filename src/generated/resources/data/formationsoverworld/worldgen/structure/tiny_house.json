@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:tiny_houses",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/tiny_house",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

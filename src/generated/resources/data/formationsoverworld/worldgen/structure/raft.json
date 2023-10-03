@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:rafts",
+  "placement": "on_water",
+  "biomes": "#formationsoverworld:has_structure/raft",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

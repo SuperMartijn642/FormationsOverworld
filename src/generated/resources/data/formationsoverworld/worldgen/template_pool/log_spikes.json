@@ -1,0 +1,61 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:log_spikes1",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:log_spikes2",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:log_spikes3",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:log_spikes4",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          }
+        ]
+      }
+    }
+  ]
+}

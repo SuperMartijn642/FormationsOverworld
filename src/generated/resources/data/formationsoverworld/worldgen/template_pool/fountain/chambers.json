@@ -1,0 +1,69 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:fountain/chamber_lava_trap",
+        "projection": "rigid",
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:block_age"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:fountain/chamber_note_blocks",
+        "projection": "rigid",
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:block_age"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:fountain/chamber_tnt_trap",
+        "projection": "rigid",
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:block_age"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:fountain/chamber_weathered",
+        "projection": "rigid",
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:block_age"
+          }
+        ]
+      }
+    }
+  ]
+}

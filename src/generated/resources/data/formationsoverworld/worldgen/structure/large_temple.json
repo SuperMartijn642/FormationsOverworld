@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:large_temples",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/large_temple",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

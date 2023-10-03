@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:small_temples",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/small_temple",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

@@ -1,0 +1,47 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:graveyard1",
+        "projection": "rigid",
+        "ground_level": 6,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:graveyard2",
+        "projection": "rigid",
+        "ground_level": 6,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:graveyard3",
+        "projection": "rigid",
+        "ground_level": 6,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          }
+        ]
+      }
+    }
+  ]
+}

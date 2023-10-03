@@ -1,0 +1,77 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:small_temple1",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "degradation_chance": 0.0,
+            "disintegration_chance": 0.0,
+            "processor_type": "formations:block_age"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:small_temple2",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "degradation_chance": 0.0,
+            "disintegration_chance": 0.0,
+            "processor_type": "formations:block_age"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:small_temple1",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:block_age"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:small_temple2",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:block_age"
+          }
+        ]
+      }
+    }
+  ]
+}

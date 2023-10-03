@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:farmland_fields",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/farmland_field",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

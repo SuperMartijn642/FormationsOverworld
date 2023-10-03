@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:copper_spires",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/copper_spire",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

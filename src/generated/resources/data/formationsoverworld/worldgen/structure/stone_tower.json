@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:stone_towers",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/stone_tower",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

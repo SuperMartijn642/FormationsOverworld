@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1024917310,
+    "spacing": 50,
+    "separation": 40
+  },
+  "structures": [
+    {
+      "structure": "formationsoverworld:large_temple",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:witch_tower",
+      "weight": 1
+    }
+  ]
+}

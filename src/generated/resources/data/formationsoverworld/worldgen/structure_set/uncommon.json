@@ -1,0 +1,98 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 650800552,
+    "spacing": 15,
+    "separation": 8
+  },
+  "structures": [
+    {
+      "structure": "formationsoverworld:bamboo_hut",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:campsite",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:copper_spire",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:desert_houses",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:farmland_field",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:fountain",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:graveyard",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:hobbit_hole",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:log_shelter",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:log_spikes",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:mesoamerican_temple",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:meteor",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:offering",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:small_house",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:small_statue",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:small_temple",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:stone_ore_spikes",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:stone_tower",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:tiny_house",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:tower_remnant",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:wagon",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:well",
+      "weight": 1
+    }
+  ]
+}

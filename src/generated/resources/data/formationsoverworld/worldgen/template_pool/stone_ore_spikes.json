@@ -1,0 +1,33 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:stone_ore_spikes1",
+        "projection": "rigid",
+        "ground_level": 5,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:stone_ore_spikes2",
+        "projection": "rigid",
+        "ground_level": 5,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          }
+        ]
+      }
+    }
+  ]
+}

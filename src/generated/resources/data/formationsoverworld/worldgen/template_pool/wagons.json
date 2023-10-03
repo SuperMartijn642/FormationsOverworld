@@ -1,0 +1,19 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:wagon",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          }
+        ]
+      }
+    }
+  ]
+}

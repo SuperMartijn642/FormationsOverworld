@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:desert_houses",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/desert_houses",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

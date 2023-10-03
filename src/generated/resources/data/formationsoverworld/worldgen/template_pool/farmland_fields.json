@@ -1,0 +1,47 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:farmland_field1",
+        "projection": "terrain_matching",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:block_age"
+          },
+          {
+            "minGrowth": 0.3,
+            "processor_type": "formations:random_plant_growth"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:farmland_field2",
+        "projection": "terrain_matching",
+        "ground_level": 1,
+        "processors": [
+          {
+            "processor_type": "formations:biome_replacements"
+          },
+          {
+            "processor_type": "formations:block_age"
+          },
+          {
+            "minGrowth": 0.3,
+            "processor_type": "formations:random_plant_growth"
+          }
+        ]
+      }
+    }
+  ]
+}

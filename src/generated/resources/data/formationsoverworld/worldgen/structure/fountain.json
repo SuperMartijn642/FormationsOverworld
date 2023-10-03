@@ -1,0 +1,11 @@
+{
+  "type": "formations:pieced",
+  "start_pool": "formationsoverworld:fountain/fountains",
+  "max_depth": 2,
+  "max_distance_from_center": 116,
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/fountain",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}
