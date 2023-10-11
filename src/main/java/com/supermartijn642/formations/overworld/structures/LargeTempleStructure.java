@@ -62,7 +62,7 @@ public class LargeTempleStructure extends StructureConfigurator {
             )
             .pool(pool ->
                 pool.uniformRolls(0, 1)
-                    .itemEntry(Items.TOTEM_OF_UNDYING)
+                    .itemEntry(Items.ENCHANTED_GOLDEN_APPLE)
                     .enchantedItemEntry(Items.BOOK, 25, false, 1)
                     .enchantedItemEntry(Items.DIAMOND_SWORD, 25, false, 1)
                     .enchantedItemEntry(Items.TRIDENT, 15, false, 1)

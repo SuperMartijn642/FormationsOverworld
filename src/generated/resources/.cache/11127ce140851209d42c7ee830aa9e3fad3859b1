@@ -1,4 +1,4 @@
-// this.cache.versionId	2023-10-03T14:50:17.8012953	Core Lib Generators
+// this.cache.versionId	2023-10-11T13:24:07.6240669	Core Lib Generators
 9f28c8709ebd6a2802c6ba20750e57091d002c30 data\formationsoverworld\worldgen\template_pool\graveyards.json
 918fe183270edcb1bbf85aa9fcfbfe969a3ba3d6 data\formationsoverworld\loot_tables\small_house\intact.json
 5d8d20a738a281c83c8b747e35172e5144e3674f data\formationsoverworld\worldgen\template_pool\tower_remnants.json
@@ -41,7 +41,7 @@ cfb869095a569a2b2b5a1c08813372dcf04e426d data\formationsoverworld\worldgen\struc
 811ba1cd72aff35a3d32c02334e2c0bba7dec376 data\formationsoverworld\loot_tables\small_house\fireplace.json
 e79223edf2cd2d8f81662c9a5601ec3172107916 data\formationsoverworld\loot_tables\witch_tower\smithing.json
 74228fe70356d85997bd6cd601f2d5a83e65b5e5 data\formationsoverworld\worldgen\structure\tower_remnant.json
-630822ed32158897b4e50d5a4605aafe15078aeb data\formationsoverworld\loot_tables\large_temple\rich_chest.json
+1db531add05c5d814bd6393fda45269ccfcad49f data\formationsoverworld\loot_tables\large_temple\rich_chest.json
 812beb0337b2622189b06122c349ecca972e0cf5 data\formationsoverworld\worldgen\structure\stone_ore_spikes.json
 ed2985cd87affd06aaa3828019cfe89e2e532bbc data\formationsoverworld\worldgen\structure\hobbit_hole.json
 dacf807ca9d688d4c0fb077a392f2d65dad01c5d data\formationsoverworld\tags\worldgen\biome\has_structure\stone_ore_spikes.json
