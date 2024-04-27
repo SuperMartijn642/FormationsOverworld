@@ -26,6 +26,8 @@ logoFile="${mod_id}.png" #optional
 authors="SuperMartijn642" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''${mod_description}'''
+# IGNORE_ALL_VERSION -> accepts any version from server and save files
+displayTest = "IGNORE_ALL_VERSION"
 # Here's another dependency
 [[dependencies.${mod_id}]]
     modId="minecraft"
