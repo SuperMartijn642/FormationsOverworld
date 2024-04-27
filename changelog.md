@@ -1,3 +1,6 @@
+### Formations Overworld 1.0.3
+- On Forge, servers with Formations Overworld will now show as compatible to clients without it
+
 ### Formations Overworld 1.0.2
 - Allow mod to be loaded on NeoForge
 
