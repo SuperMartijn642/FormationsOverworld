@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 6.0,
+        "max": 8.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread",
+          "weight": 5,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:torch",
+          "weight": 5,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:tropical_fish",
+          "type": "minecraft:item"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "name": "minecraft:leather_helmet",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:leather_chestplate",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:leather_leggings",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:leather_boots",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:iron_sword",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:shield",
+          "type": "minecraft:item"
+        }
+      ]
+    }
+  ]
+}

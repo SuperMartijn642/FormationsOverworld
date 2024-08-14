@@ -46,7 +46,7 @@ public class WagonStructure extends StructureConfigurator {
                     .itemEntry(Items.WHEAT, 1, 3, 10)
                     .itemEntry(Items.APPLE, 1, 5, 3)
                     .itemEntry(Items.GLISTERING_MELON_SLICE, 1, 6, 1)
-                    .enchantedItemEntry(Items.FISHING_ROD, 10, false, 1)
+                    .enchantedItemEntry(Items.FISHING_ROD, 10, 1)
             )
             .pool(pool ->
                 pool.uniformRolls(1, 2)

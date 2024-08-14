@@ -55,7 +55,7 @@ public class TinyHouseStructure extends StructureConfigurator {
                     .itemEntry(Items.TORCH, 1, 4, 20)
                     .itemEntry(Items.WHEAT, 2, 5, 20)
                     .itemEntry(Items.PAPER, 3, 5, 5)
-                    .enchantedItemEntry(Items.BOOK, 15, false, 1)
+                    .enchantedItemEntry(Items.BOOK, 15, 1)
             );
     }
 }

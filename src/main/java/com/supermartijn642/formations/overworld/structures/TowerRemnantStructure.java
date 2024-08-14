@@ -50,10 +50,10 @@ public class TowerRemnantStructure extends StructureConfigurator {
             )
             .pool(pool ->
                 pool.uniformRolls(0, 1)
-                    .enchantedItemEntry(Items.SHIELD, 10, true, 5)
-                    .enchantedItemEntry(Items.BOW, 10, true, 5)
-                    .enchantedItemEntry(Items.IRON_SWORD, 10, true, 5)
-                    .enchantedItemEntry(Items.DIAMOND_SWORD, 15, true, 1)
+                    .enchantedItemEntry(Items.SHIELD, 10, 5)
+                    .enchantedItemEntry(Items.BOW, 10, 5)
+                    .enchantedItemEntry(Items.IRON_SWORD, 10, 5)
+                    .enchantedItemEntry(Items.DIAMOND_SWORD, 15, 1)
             );
     }
 }

@@ -71,7 +71,7 @@ public class HobbitHoleStructure extends StructureConfigurator {
                     .itemEntry(Items.SHIELD)
                     .itemEntry(Items.LEAD)
                     .itemEntry(Items.CLOCK)
-                    .enchantedItemEntry(Items.BOOK, 30, false, 1)
+                    .enchantedItemEntry(Items.BOOK, 30, 1)
             );
         generator.lootTable("hobbit_hole/food")
             .pool(pool ->

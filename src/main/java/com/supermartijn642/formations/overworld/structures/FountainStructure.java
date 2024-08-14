@@ -50,7 +50,7 @@ public class FountainStructure extends StructureConfigurator {
                     .itemEntry(Items.IRON_INGOT, 2, 8, 5)
                     .itemEntry(Items.GOLD_INGOT, 3, 15, 5)
                     .itemEntry(Items.EMERALD, 1, 4, 1)
-                    .enchantedItemEntry(Items.BOOK, 3, true, 3)
+                    .enchantedItemEntry(Items.BOOK, 3, 3)
                     .itemEntry(Items.WHEAT, 3, 20, 20)
                     .itemEntry(Items.BONE, 3, 20, 20)
                     .itemEntry(Items.STRING, 5, 15, 10)

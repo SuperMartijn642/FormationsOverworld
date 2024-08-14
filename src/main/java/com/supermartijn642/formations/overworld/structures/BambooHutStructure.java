@@ -45,7 +45,7 @@ public class BambooHutStructure extends StructureConfigurator {
                     .itemEntry(Items.BAMBOO, 6, 16, 10)
                     .itemEntry(Items.MELON_SLICE, 6, 12, 10)
                     .itemEntry(Items.GLISTERING_MELON_SLICE, 1, 5, 1)
-                    .enchantedItemEntry(Items.FISHING_ROD, 10, false, 1)
+                    .enchantedItemEntry(Items.FISHING_ROD, 10, 1)
             );
     }
 }
