@@ -1,9 +1,9 @@
 plugins {
-    id "fabric-loom" version "1.6-SNAPSHOT"
+    id "fabric-loom" version "1.7-SNAPSHOT"
     id "me.modmuss50.mod-publish-plugin" version "0.5.2"
 }
 
-version = mod_version
+version = mod_version + "-" + version_suffix
 group = maven_group
 base.archivesName = mod_id
 
@@ -39,7 +39,7 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
 
     // Formations Core
-    modImplementation "com.supermartijn642:formations:1.0.0-fabric-mc1.20"
+    modImplementation "com.supermartijn642:formations:1.0.2-fabric-mc1.21"
     // Core library
     modImplementation "curse.maven:supermartijn642s-core-lib-454372:${core_library_file}"
 
@@ -115,7 +115,7 @@ java {
 
 publishMods {
     file = remapJar.archiveFile
-    displayName = "${mod_name} ${mod_version}"
+    displayName = "${mod_name} ${mod_version} For Minecraft 1.21" // TODO
     version = project.version
     //noinspection UnnecessaryQualifiedReference
     type = me.modmuss50.mpp.ReleaseType.of(publishing_release_type.toUpperCase())
@@ -138,6 +138,7 @@ publishMods {
     modrinth {
         accessToken = System.getenv("MODRINTH_TOKEN")
         projectId = modrinth_project_id
+        displayName = "${mod_name} ${mod_version}"
         if (!modrinth_required_dependency_ids.isEmpty())
             modrinth_required_dependency_ids.split(" ").each it::requires
         if (!modrinth_optional_dependency_ids.isEmpty())
