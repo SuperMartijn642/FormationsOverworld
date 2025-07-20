@@ -44,7 +44,7 @@
             {
               "count": {
                 "min": 1.0,
-                "max": 5.0,
+                "max": 2.0,
                 "type": "minecraft:uniform"
               },
               "add": false,
@@ -52,23 +52,12 @@
             }
           ],
           "name": "minecraft:emerald",
-          "weight": 5,
+          "weight": 2,
           "type": "minecraft:item"
         },
         {
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              },
-              "add": false,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:diamond",
-          "weight": 5,
+          "weight": 2,
           "type": "minecraft:item"
         },
         {

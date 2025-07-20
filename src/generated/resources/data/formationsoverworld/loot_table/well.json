@@ -12,7 +12,7 @@
             {
               "count": {
                 "min": 3.0,
-                "max": 8.0,
+                "max": 6.0,
                 "type": "minecraft:uniform"
               },
               "add": false,
@@ -20,7 +20,7 @@
             }
           ],
           "name": "minecraft:iron_nugget",
-          "weight": 20,
+          "weight": 15,
           "type": "minecraft:item"
         },
         {
@@ -36,7 +36,7 @@
             }
           ],
           "name": "minecraft:emerald",
-          "weight": 5,
+          "weight": 3,
           "type": "minecraft:item"
         },
         {
@@ -74,7 +74,7 @@
             }
           ],
           "name": "minecraft:prismarine_crystals",
-          "weight": 5,
+          "weight": 2,
           "type": "minecraft:item"
         }
       ]

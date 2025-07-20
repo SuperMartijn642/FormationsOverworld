@@ -15,6 +15,10 @@
       "weight": 1
     },
     {
+      "structure": "formationsoverworld:cobble_hole",
+      "weight": 1
+    },
+    {
       "structure": "formationsoverworld:copper_spire",
       "weight": 1
     },
@@ -39,6 +43,18 @@
       "weight": 1
     },
     {
+      "structure": "formationsoverworld:ice_castle",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:ice_spire",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:igloo",
+      "weight": 1
+    },
+    {
       "structure": "formationsoverworld:log_shelter",
       "weight": 1
     },
@@ -52,6 +68,10 @@
     },
     {
       "structure": "formationsoverworld:meteor",
+      "weight": 1
+    },
+    {
+      "structure": "formationsoverworld:mushroom_hut",
       "weight": 1
     },
     {

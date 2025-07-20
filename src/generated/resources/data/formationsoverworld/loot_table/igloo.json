@@ -3,21 +3,25 @@
   "pools": [
     {
       "rolls": {
-        "min": 1.0,
-        "max": 5.0,
+        "min": 4.0,
+        "max": 9.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              },
               "add": false,
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:cobweb",
-          "weight": 25,
+          "name": "minecraft:snowball",
+          "weight": 20,
           "type": "minecraft:item"
         },
         {
@@ -25,14 +29,14 @@
             {
               "count": {
                 "min": 1.0,
-                "max": 7.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               },
               "add": false,
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:coal",
+          "name": "minecraft:snow_block",
           "weight": 5,
           "type": "minecraft:item"
         },
@@ -41,6 +45,35 @@
             {
               "count": {
                 "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:white_wool",
+          "weight": 3,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:pumpkin",
+          "type": "minecraft:item"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
                 "max": 6.0,
                 "type": "minecraft:uniform"
               },
@@ -48,15 +81,15 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:raw_gold",
-          "weight": 5,
+          "name": "minecraft:cod",
+          "weight": 10,
           "type": "minecraft:item"
         },
         {
           "functions": [
             {
               "count": {
-                "min": 1.0,
+                "min": 2.0,
                 "max": 6.0,
                 "type": "minecraft:uniform"
               },
@@ -64,86 +97,28 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:raw_iron",
-          "weight": 5,
+          "name": "minecraft:salmon",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:fishing_rod",
+          "weight": 3,
           "type": "minecraft:item"
         },
         {
           "functions": [
             {
-              "count": {
-                "min": 1.0,
-                "max": 4.0,
+              "levels": {
+                "min": 3.0,
+                "max": 10.0,
                 "type": "minecraft:uniform"
               },
-              "add": false,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:emerald",
-          "weight": 2,
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 12.0,
-                "type": "minecraft:uniform"
-              },
-              "add": false,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:lapis_lazuli",
-          "weight": 4,
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              },
-              "add": false,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond",
-          "weight": 2,
-          "type": "minecraft:item"
-        },
-        {
-          "name": "minecraft:name_tag",
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "levels": 20.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "minecraft:book",
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "levels": 15.0,
-              "options": "#minecraft:on_random_loot",
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:iron_helmet",
-          "type": "minecraft:item"
-        },
-        {
-          "name": "minecraft:music_disc_far",
+          "name": "minecraft:fishing_rod",
           "type": "minecraft:item"
         }
       ]

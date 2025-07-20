@@ -134,215 +134,116 @@
     {
       "rolls": {
         "min": 0.0,
-        "max": 2.0,
+        "max": 1.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 10.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
           ],
           "name": "minecraft:iron_sword",
-          "weight": 20,
+          "weight": 3,
           "type": "minecraft:item"
         },
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 10.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
           ],
           "name": "minecraft:iron_pickaxe",
-          "weight": 20,
+          "weight": 3,
           "type": "minecraft:item"
         },
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 10.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
           ],
           "name": "minecraft:iron_axe",
-          "weight": 20,
+          "weight": 3,
           "type": "minecraft:item"
         },
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 10.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
           ],
           "name": "minecraft:iron_shovel",
-          "weight": 20,
+          "weight": 3,
           "type": "minecraft:item"
         },
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 10.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
           ],
           "name": "minecraft:iron_hoe",
-          "weight": 15,
+          "weight": 2,
           "type": "minecraft:item"
         },
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 10.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "minecraft:iron_helmet",
-          "weight": 20,
+          "name": "minecraft:chainmail_helmet",
+          "weight": 4,
           "type": "minecraft:item"
         },
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 10.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "minecraft:iron_chestplate",
-          "weight": 20,
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 4,
           "type": "minecraft:item"
         },
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 10.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "minecraft:iron_leggings",
-          "weight": 20,
+          "name": "minecraft:chainmail_leggings",
+          "weight": 4,
           "type": "minecraft:item"
         },
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 10.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "minecraft:iron_boots",
-          "weight": 20,
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "levels": 25.0,
-              "options": "#minecraft:on_random_loot",
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:diamond_sword",
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "levels": 25.0,
-              "options": "#minecraft:on_random_loot",
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:diamond_pickaxe",
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "levels": 25.0,
-              "options": "#minecraft:on_random_loot",
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:diamond_axe",
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "levels": 25.0,
-              "options": "#minecraft:on_random_loot",
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:diamond_shovel",
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "levels": 25.0,
-              "options": "#minecraft:on_random_loot",
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:diamond_hoe",
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "levels": 25.0,
-              "options": "#minecraft:on_random_loot",
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:diamond_helmet",
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "levels": 25.0,
-              "options": "#minecraft:on_random_loot",
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:diamond_chestplate",
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "levels": 25.0,
-              "options": "#minecraft:on_random_loot",
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:diamond_leggings",
-          "type": "minecraft:item"
-        },
-        {
-          "functions": [
-            {
-              "levels": 25.0,
-              "options": "#minecraft:on_random_loot",
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:diamond_boots",
+          "name": "minecraft:chainmail_boots",
+          "weight": 4,
           "type": "minecraft:item"
         }
       ]

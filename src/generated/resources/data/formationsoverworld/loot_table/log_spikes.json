@@ -2,8 +2,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 6.0,
-        "max": 8.0,
+        "min": 4.0,
+        "max": 6.0,
         "type": "minecraft:uniform"
       },
       "entries": [
@@ -52,7 +52,7 @@
             }
           ],
           "name": "minecraft:bone",
-          "weight": 20,
+          "weight": 10,
           "type": "minecraft:item"
         },
         {

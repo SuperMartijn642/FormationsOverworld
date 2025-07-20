@@ -29,7 +29,7 @@
             {
               "count": {
                 "min": 2.0,
-                "max": 8.0,
+                "max": 5.0,
                 "type": "minecraft:uniform"
               },
               "add": false,
@@ -45,7 +45,7 @@
             {
               "count": {
                 "min": 3.0,
-                "max": 8.0,
+                "max": 5.0,
                 "type": "minecraft:uniform"
               },
               "add": false,
@@ -60,7 +60,7 @@
             {
               "count": {
                 "min": 3.0,
-                "max": 8.0,
+                "max": 5.0,
                 "type": "minecraft:uniform"
               },
               "add": false,
@@ -75,8 +75,8 @@
           "functions": [
             {
               "count": {
-                "min": 3.0,
-                "max": 8.0,
+                "min": 2.0,
+                "max": 4.0,
                 "type": "minecraft:uniform"
               },
               "add": false,
@@ -98,10 +98,6 @@
       "entries": [
         {
           "name": "minecraft:cake",
-          "type": "minecraft:item"
-        },
-        {
-          "name": "minecraft:pumpkin_pie",
           "type": "minecraft:item"
         },
         {
@@ -132,7 +128,7 @@
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 15.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
@@ -143,7 +139,7 @@
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 15.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
@@ -154,7 +150,7 @@
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 15.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
@@ -165,7 +161,7 @@
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 15.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
@@ -176,7 +172,7 @@
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 15.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
@@ -187,7 +183,7 @@
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 15.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }
@@ -198,7 +194,7 @@
         {
           "functions": [
             {
-              "levels": 20.0,
+              "levels": 15.0,
               "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_with_levels"
             }

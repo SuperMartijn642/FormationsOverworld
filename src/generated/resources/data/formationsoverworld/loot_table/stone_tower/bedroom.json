@@ -61,7 +61,7 @@
             {
               "count": {
                 "min": 1.0,
-                "max": 10.0,
+                "max": 5.0,
                 "type": "minecraft:uniform"
               },
               "add": false,
@@ -278,11 +278,7 @@
       ]
     },
     {
-      "rolls": {
-        "min": 1.0,
-        "max": 2.0,
-        "type": "minecraft:uniform"
-      },
+      "rolls": 1.0,
       "entries": [
         {
           "name": "minecraft:spyglass",

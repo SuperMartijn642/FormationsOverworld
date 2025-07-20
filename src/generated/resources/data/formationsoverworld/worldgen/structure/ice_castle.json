@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:ice_castles",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/ice_castle",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

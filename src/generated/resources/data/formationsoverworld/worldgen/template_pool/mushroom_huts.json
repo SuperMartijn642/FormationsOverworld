@@ -1,0 +1,95 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:mushroom_hut1",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:mushroom_hut2",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:mushroom_hut3",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:mushroom_hut4",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:mushroom_hut5",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:mushroom_hut6",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:mushroom_hut7",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:mushroom_hut8",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "formations:single_pool_element",
+        "location": "formationsoverworld:mushroom_hut9",
+        "projection": "rigid",
+        "ground_level": 1,
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
