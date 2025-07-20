@@ -1,3 +1,9 @@
+### Formations Overworld 1.0.5
+- Added cobble hole, ice castle, ice spire, igloo, and mushroom hut structures
+- Adjusted loot tables for all structures
+- Reduced valuables from witch tower structure
+- Removed lava trap from witch tower to prevent mobs from setting it on fire
+
 ### Formations Overworld 1.0.4
 - Added support for NeoForge 1.20.5+
 
