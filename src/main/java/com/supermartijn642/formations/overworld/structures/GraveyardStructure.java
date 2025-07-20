@@ -54,11 +54,6 @@ public class GraveyardStructure extends StructureConfigurator {
                     .enchantedItemEntry(Items.IRON_PICKAXE, 10, 5)
                     .enchantedItemEntry(Items.IRON_SHOVEL, 10, 5)
                     .enchantedItemEntry(Items.IRON_HELMET, 10, 5)
-                    .enchantedItemEntry(Items.DIAMOND_SWORD, 20, 1)
-                    .enchantedItemEntry(Items.DIAMOND_AXE, 20, 1)
-                    .enchantedItemEntry(Items.DIAMOND_PICKAXE, 20, 1)
-                    .enchantedItemEntry(Items.DIAMOND_SHOVEL, 20, 1)
-                    .enchantedItemEntry(Items.DIAMOND_HELMET, 20, 1)
                     .enchantedItemEntry(Items.BOOK, 20, 5)
             );
         generator.lootTable("graveyard/grave")
@@ -74,8 +69,8 @@ public class GraveyardStructure extends StructureConfigurator {
                 pool.uniformRolls(4, 8)
                     .itemEntry(Items.GOLD_NUGGET, 1, 6, 5)
                     .itemEntry(Items.GOLD_INGOT, 2, 5, 5)
-                    .itemEntry(Items.EMERALD, 1, 5, 5)
-                    .itemEntry(Items.DIAMOND, 1, 4, 5)
+                    .itemEntry(Items.EMERALD, 1, 2, 2)
+                    .itemEntry(Items.DIAMOND, 2)
                     .itemEntry(Items.ROTTEN_FLESH, 1, 7, 15)
             );
     }

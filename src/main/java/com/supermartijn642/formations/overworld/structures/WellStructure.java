@@ -42,11 +42,11 @@ public class WellStructure extends StructureConfigurator {
         generator.lootTable("well")
             .pool(pool ->
                 pool.uniformRolls(4, 6)
-                    .itemEntry(Items.IRON_NUGGET, 3, 8, 20)
-                    .itemEntry(Items.EMERALD, 1, 5, 5)
+                    .itemEntry(Items.IRON_NUGGET, 3, 6, 15)
+                    .itemEntry(Items.EMERALD, 1, 5, 3)
                     .itemEntry(Items.GOLDEN_APPLE, 1, 1)
                     .itemEntry(Items.NAME_TAG, 1, 1)
-                    .itemEntry(Items.PRISMARINE_CRYSTALS, 1, 4, 5)
+                    .itemEntry(Items.PRISMARINE_CRYSTALS, 1, 4, 2)
             );
     }
 }

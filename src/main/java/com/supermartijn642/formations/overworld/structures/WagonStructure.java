@@ -54,7 +54,6 @@ public class WagonStructure extends StructureConfigurator {
                     .itemEntry(Items.BEETROOT_SEEDS, 1, 6, 1)
                     .itemEntry(Items.PUMPKIN_SEEDS, 1, 6, 1)
                     .itemEntry(Items.WHEAT_SEEDS, 1, 6, 1)
-                    .itemEntry(Items.TORCHFLOWER_SEEDS, 1, 5, 1)
                     .itemEntry(Items.POTATO, 1, 6, 1)
                     .itemEntry(Items.CARROT, 1, 6, 1)
             );

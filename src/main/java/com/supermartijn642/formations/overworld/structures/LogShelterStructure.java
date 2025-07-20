@@ -50,7 +50,7 @@ public class LogShelterStructure extends StructureConfigurator {
                     .itemEntry(Items.LEATHER_CHESTPLATE)
                     .itemEntry(Items.LEATHER_LEGGINGS)
                     .itemEntry(Items.LEATHER_BOOTS)
-                    .itemEntry(Items.IRON_SWORD)
+                    .itemEntry(Items.STONE_SWORD)
                     .itemEntry(Items.SHIELD)
             );
     }

@@ -49,7 +49,7 @@ public class TinyHouseStructure extends StructureConfigurator {
                 pool.uniformRolls(6, 8)
                     .itemEntry(Items.BOOK, 1, 3, 15)
                     .itemEntry(Items.COOKED_SALMON, 2, 4, 5)
-                    .itemEntry(Items.GOLDEN_CARROT, 3, 5, 3)
+                    .itemEntry(Items.GOLDEN_CARROT, 1, 4, 3)
                     .itemEntry(Items.CARROT, 2, 4, 15)
                     .itemEntry(Items.APPLE, 2, 4, 20)
                     .itemEntry(Items.TORCH, 1, 4, 20)
