@@ -137,61 +137,6 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
-              "treasure": true
-            }
-          ],
-          "name": "minecraft:diamond_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
-              "treasure": true
-            }
-          ],
-          "name": "minecraft:diamond_axe"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
-              "treasure": true
-            }
-          ],
-          "name": "minecraft:diamond_pickaxe"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
-              "treasure": true
-            }
-          ],
-          "name": "minecraft:diamond_shovel"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
-              "treasure": true
-            }
-          ],
-          "name": "minecraft:diamond_helmet"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 5,
           "functions": [
             {

@@ -64,7 +64,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 10.0
+                "max": 5.0
               },
               "add": false
             }
@@ -278,11 +278,7 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-      },
+      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",

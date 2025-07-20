@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:cobble_holes",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/cobble_hole",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

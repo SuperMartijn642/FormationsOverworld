@@ -9,14 +9,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3.0,
-                "max": 8.0
+                "max": 6.0
               },
               "add": false
             }
@@ -25,7 +25,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -63,7 +63,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",

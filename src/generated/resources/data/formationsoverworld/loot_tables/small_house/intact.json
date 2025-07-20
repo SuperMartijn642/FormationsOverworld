@@ -33,7 +33,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 8.0
+                "max": 5.0
               },
               "add": false
             }
@@ -48,7 +48,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3.0,
-                "max": 8.0
+                "max": 5.0
               },
               "add": false
             }
@@ -64,7 +64,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3.0,
-                "max": 8.0
+                "max": 5.0
               },
               "add": false
             }
@@ -79,8 +79,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 8.0
+                "min": 2.0,
+                "max": 4.0
               },
               "add": false
             }
@@ -99,10 +99,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cake"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pumpkin_pie"
         },
         {
           "type": "minecraft:item",
@@ -134,7 +130,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
+              "levels": 15.0,
               "treasure": true
             }
           ],
@@ -145,7 +141,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
+              "levels": 15.0,
               "treasure": true
             }
           ],
@@ -156,7 +152,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
+              "levels": 15.0,
               "treasure": true
             }
           ],
@@ -167,7 +163,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
+              "levels": 15.0,
               "treasure": true
             }
           ],
@@ -178,7 +174,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
+              "levels": 15.0,
               "treasure": true
             }
           ],
@@ -189,7 +185,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
+              "levels": 15.0,
               "treasure": true
             }
           ],
@@ -200,7 +196,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 20.0,
+              "levels": 15.0,
               "treasure": true
             }
           ],

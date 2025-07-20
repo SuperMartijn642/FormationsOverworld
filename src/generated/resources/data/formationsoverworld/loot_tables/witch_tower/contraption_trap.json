@@ -1,10 +1,9 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 3.0,
+        "min": 4.0,
         "max": 6.0
       },
       "entries": [
@@ -15,7 +14,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
+                "min": 3.0,
                 "max": 5.0
               },
               "add": false

@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:igloos",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/igloo",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

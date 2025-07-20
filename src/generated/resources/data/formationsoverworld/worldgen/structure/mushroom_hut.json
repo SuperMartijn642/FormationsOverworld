@@ -1,0 +1,9 @@
+{
+  "type": "formations:simple",
+  "template": "formationsoverworld:mushroom_huts",
+  "placement": "surface",
+  "biomes": "#formationsoverworld:has_structure/mushroom_hut",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}
