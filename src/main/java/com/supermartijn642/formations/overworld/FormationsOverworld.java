@@ -23,17 +23,22 @@ public class FormationsOverworld implements ModInitializer {
 
         generators.addStructure(new BambooHutStructure());
         generators.addStructure(new CampsiteStructure());
+        generators.addStructure(new CobbleHoleStructure());
         generators.addStructure(new CopperSpireStructure());
         generators.addStructure(new DesertHousesStructure());
         generators.addStructure(new FarmlandFieldStructure());
         generators.addStructure(new FountainStructure());
         generators.addStructure(new GraveyardStructure());
         generators.addStructure(new HobbitHoleStructure());
+        generators.addStructure(new IceCastleStructure());
+        generators.addStructure(new IceSpireStructure());
+        generators.addStructure(new IglooStructure());
         generators.addStructure(new LargeTempleStructure());
         generators.addStructure(new LogShelterStructure());
         generators.addStructure(new LogSpikesStructure());
         generators.addStructure(new MesoamericanTempleStructure());
         generators.addStructure(new MeteorStructure());
+        generators.addStructure(new MushroomHutStructure());
         generators.addStructure(new OfferingStructure());
         generators.addStructure(new RaftStructure());
         generators.addStructure(new SmallHouseStructure());
