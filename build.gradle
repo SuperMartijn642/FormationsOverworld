@@ -39,7 +39,7 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
 
     // Formations Core
-    modImplementation "com.supermartijn642:formations:1.0.2-fabric-mc1.21"
+    modImplementation "com.supermartijn642:formations:1.0.4a-fabric-mc1.21"
     // Core library
     modImplementation "curse.maven:supermartijn642s-core-lib-454372:${core_library_file}"
 
