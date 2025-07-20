@@ -38,10 +38,10 @@ public class LogSpikesStructure extends StructureConfigurator {
     protected void createLootTables(FormationsLootTableGenerator generator){
         generator.lootTable("log_spikes")
             .pool(pool ->
-                pool.uniformRolls(6, 8)
+                pool.uniformRolls(4, 6)
                     .itemEntry(Items.STRING, 1, 4, 20)
                     .itemEntry(Items.ARROW, 1, 4, 20)
-                    .itemEntry(Items.BONE, 1, 4, 20)
+                    .itemEntry(Items.BONE, 1, 4, 10)
                     .itemEntry(Items.BONE_MEAL, 1, 3, 20)
                     .itemEntry(Items.ROTTEN_FLESH, 1, 4, 15)
             )

@@ -51,7 +51,7 @@ public class CampsiteStructure extends StructureConfigurator {
                     .itemEntry(Items.TORCH, 2, 6, 5)
             )
             .pool(pool ->
-                pool.uniformRolls(0, 2)
+                pool.uniformRolls(0, 1)
                     .itemEntry(Items.COMPASS)
                     .itemEntry(Items.SPYGLASS)
                     .itemEntry(Items.BRUSH)

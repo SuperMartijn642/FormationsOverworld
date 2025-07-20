@@ -46,9 +46,10 @@ public class LargeTempleStructure extends StructureConfigurator {
                 pool.uniformRolls(5, 7)
                     .itemEntry(Items.REDSTONE, 3, 6, 5)
                     .itemEntry(Items.GOLD_INGOT, 2, 4, 3)
-                    .itemEntry(Items.GOLD_NUGGET, 3, 5, 6)
-                    .itemEntry(Items.BONE, 1, 5, 8)
-                    .itemEntry(Items.EMERALD, 1, 5, 3)
+                    .itemEntry(Items.GOLD_NUGGET, 3, 9, 5)
+                    .itemEntry(Items.IRON_INGOT, 1, 3, 3)
+                    .itemEntry(Items.IRON_NUGGET, 3, 9, 5)
+                    .itemEntry(Items.BONE, 1, 5, 10)
             );
         generator.lootTable("large_temple/rich_chest")
             .pool(pool ->
@@ -57,15 +58,23 @@ public class LargeTempleStructure extends StructureConfigurator {
                     .itemEntry(Items.GOLD_INGOT, 2, 4, 3)
                     .itemEntry(Items.GOLD_NUGGET, 3, 5, 6)
                     .itemEntry(Items.BONE, 1, 5, 8)
-                    .itemEntry(Items.EMERALD, 1, 5, 3)
+                    .itemEntry(Items.EMERALD, 1, 3, 3)
                     .itemEntry(Items.SUSPICIOUS_STEW)
             )
             .pool(pool ->
                 pool.uniformRolls(0, 1)
                     .itemEntry(Items.ENCHANTED_GOLDEN_APPLE)
                     .enchantedItemEntry(Items.BOOK, 25, false, 1)
-                    .enchantedItemEntry(Items.DIAMOND_SWORD, 25, false, 1)
-                    .enchantedItemEntry(Items.TRIDENT, 15, false, 1)
+                    .enchantedItemEntry(Items.DIAMOND_SWORD, 15, false, 1)
+                    .enchantedItemEntry(Items.DIAMOND_PICKAXE, 15, false, 1)
+                    .enchantedItemEntry(Items.IRON_SWORD, 15, false, 1)
+                    .enchantedItemEntry(Items.IRON_PICKAXE, 15, false, 1)
+                    .enchantedItemEntry(Items.IRON_AXE, 15, false, 1)
+                    .enchantedItemEntry(Items.IRON_SHOVEL, 15, false, 1)
+                    .enchantedItemEntry(Items.IRON_HELMET, 15, false, 1)
+                    .enchantedItemEntry(Items.IRON_CHESTPLATE, 15, false, 1)
+                    .enchantedItemEntry(Items.IRON_LEGGINGS, 15, false, 1)
+                    .enchantedItemEntry(Items.IRON_BOOTS, 15, false, 1)
             );
     }
 }
