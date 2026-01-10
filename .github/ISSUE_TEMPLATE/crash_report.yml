@@ -1,0 +1,56 @@
+name: Crash report
+title: "[Crash] Your title here"
+description: A crash occurred
+labels: crash
+body:
+  - type: input
+    id: input-0
+    attributes:
+      label: Minecraft version
+      description: What Minecraft version are you using?
+    validations:
+      required: true
+  - type: dropdown
+    id: dropdown-0
+    attributes:
+      label: Mod Loader
+      description: Which mod loader are you using?
+      options:
+        - Fabric
+        - Forge
+        - NeoForge
+        - Quilt
+    validations:
+      required: true
+  - type: input
+    id: input-1
+    attributes:
+      label: Formations Overworld version
+      description: What version of Formations Overworld are you using?
+    validations:
+      required: true
+  - type: input
+    id: input-2
+    attributes:
+      label: Formations version
+      description: What version of [Formations](https://www.curseforge.com/minecraft/mc-mods/formations) are you using?
+    validations:
+      required: true
+  - type: textarea
+    id: textarea-0
+    attributes:
+      label: Steps to reproduce
+      description: Please describe the steps needed to recreate the crash. If you
+        cannot recreate the crash, please describe what you were doing when the
+        crash occurred.
+    validations:
+      required: true
+  - type: textarea
+    id: textarea-1
+    attributes:
+      label: Crash report (~/logs/latest.log)
+      description: Please share a link to the `latest.log` file from your game. The
+        file is located at `logs/latest.log` next to your mods folder. You can
+        use https://gist.github.com/ to upload the log and get a link.
+    validations:
+      required: true
