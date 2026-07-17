@@ -22,7 +22,6 @@
   "mixins": [
     "${mod_id}.mixins.json"
   ],
-  "accessWidener": "${mod_id}.accesswidener",
   "depends": {
     "fabricloader": "${fabric_loader_dependency}",
     "minecraft": "${minecraft_fabric_dependency}",
