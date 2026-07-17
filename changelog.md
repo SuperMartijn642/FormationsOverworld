@@ -1,3 +1,6 @@
+### Formations Overworld 1.0.5a
+- Fixed crash on Fabric with Minecraft 26.1+
+
 ### Formations Overworld 1.0.5
 - Added cobble hole, ice castle, ice spire, igloo, and mushroom hut structures
 - Adjusted loot tables for all structures
